@@ -1,0 +1,195 @@
+/* 🌑 Body Layout */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #10141e;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+/* 📌 Sidebar */
+.sidebar {
+  width: 70px;
+  background-color: #161d2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+/* Sidebar top (logo + nav) */
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sidebar h2 {
+  font-size: 2.2rem;
+  color: #fff;
+  margin: 0;
+}
+
+/* Navigation icons */
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.sidebar nav a {
+  color: #bbb;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar nav a.active,
+.sidebar nav a:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* Sidebar bottom (user profile) */
+.sidebar-bottom {
+  padding-bottom: 1rem;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.username {
+  font-size: 12px;
+  color: #bbb;
+  margin-top: 0.5rem;
+  text-align: center;
+  max-width: 60px;
+  word-wrap: break-word;
+}
+
+/* 🧾 Main Content */
+.main {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+  max-height: 100vh;
+  padding-bottom: 3rem;
+}
+
+/* 🔍 Search Bar with Icon */
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1.5rem;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 0.8rem 2.5rem 0.8rem 1rem;
+  border-radius: 8px;
+  background-color: #1e2538;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 1.1rem;
+  pointer-events: none;
+}
+
+/* 🧩 Sections: Trending / Recommended */
+.section {
+  margin-top: 2rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+/* 🖼️ Card Design */
+.card {
+  background-color: #161d2f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 0.5rem 0 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* 🔥 Trending Card with Text Overlay */
+.trending-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.trending-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: brightness(0.6);
+}
+
+.trending-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+}
+
+.trending-overlay h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.trending-overlay p {
+  margin: 0.3rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}

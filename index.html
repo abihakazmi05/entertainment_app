@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entertainment Web App</title>
+
+  <!-- Font Awesome for search icon -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    <!-- ========== Sidebar ========== -->
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <!-- App Logo -->
+        <h2>🎬</h2>
+
+        <!-- Navigation Icons -->
+        <nav>
+          <a href="index.html" class="active" title="Home">🏠</a>
+          <a href="movies.html" title="Movies">🎞️</a>
+          <a href="series.html" title="TV Series">📺</a>
+          <a href="bookmarks.html" title="Bookmarks">🔖</a>
+        </nav>
+      </div>
+
+      <!-- User Profile Section -->
+      <div class="sidebar-bottom">
+        <img src="https://i.pravatar.cc/40?img=5" alt="User" class="profile-pic" />
+        <p class="username">Sarah</p>
+      </div>
+    </aside>
+
+    <!-- ========== Main Content ========== -->
+    <main class="main">
+
+      <!-- Search Bar -->
+      <div class="search-wrapper">
+        <input type="text" id="search" placeholder="Search for movies or TV series..." />
+        <i class="fas fa-search search-icon"></i>
+      </div>
+
+      <!-- Trending Movies Section -->
+      <section class="section">
+        <h2>Trending</h2>
+        <div id="trending" class="card-container"></div>
+      </section>
+
+      <!-- Recommended Movies Section -->
+      <section class="section">
+        <h2>Recommended for you</h2>
+        <div id="recommended" class="card-container"></div>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>

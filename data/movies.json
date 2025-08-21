@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Beyond Earth",
+    "year": "2019",
+    "category": "Movie",
+    "rating": "PG",
+    "thumbnail": "assets/beyond_earth.jpg",
+    "isTrending": false,
+    "isBookmarked": false
+  },
+  {
+    "title": "The Night Sky",
+    "year": "2022",
+    "category": "Movie",
+    "rating": "PG-13",
+    "thumbnail": "assets/night_sky.jpg",
+    "isTrending": false,
+    "isBookmarked": false
+  },
+  {
+    "title": "Future Chronicles",
+    "year": "2020",
+    "category": "Movie",
+    "rating": "R",
+    "thumbnail": "assets/future_chronicles.jpg",
+    "isTrending": false,
+    "isBookmarked": false
+  },
+  {
+    "title": "Undiscovered Cities",
+    "year": "2021",
+    "category": "TV Series",
+    "rating": "E",
+    "thumbnail": "assets/undiscovered_cities.jpg",
+    "isTrending": false,
+    "isBookmarked": false
+  },
+  {
+    "title": "Silent Horizon",
+    "year": "2020",
+    "category": "Movie",
+    "rating": "PG",
+    "thumbnail": "assets/silent_horizen.jpg",
+    "isTrending": false,
+    "isBookmarked": false
+  },
+  {
+    "title": "Codebreaker",
+    "year": "2018",
+    "category": "TV Series",
+    "rating": "TV-14",
+    "thumbnail": "assets/code_breaker.jpg",
+    "isTrending": false,
+    "isBookmarked": false
+  },
+  {
+    "title": "Mystic Falls",
+    "year": "2021",
+    "category": "TV Series",
+    "rating": "TV-PG",
+    "thumbnail": "assets/mystic_falls.jpg",
+    "isTrending": true,
+    "isBookmarked": false
+  },
+  {
+    "title": "Cyber Rush",
+    "year": "2022",
+    "category": "Movie",
+    "rating": "PG-13",
+    "thumbnail": "assets/cyber_rush.jpg",
+    "isTrending": false,
+    "isBookmarked": false
+  },
+  {
+    "title": "Time Wanderers",
+    "year": "2017",
+    "category": "Movie",
+    "rating": "PG",
+    "thumbnail": "assets/time_wanderers.jpg",
+    "isTrending": true,
+    "isBookmarked": false
+  },
+  {
+    "title": "Ocean Secrets",
+    "year": "2016",
+    "category": "TV Series",
+    "rating": "TV-G",
+    "thumbnail": "assets/ocean_secrets.jpg",
+    "isTrending": false,
+    "isBookmarked": false
+  },
+  {
+    "title": "Hidden Truths",
+    "year": "2019",
+    "category": "Movie",
+    "rating": "R",
+    "thumbnail": "assets/hidden_truth.jpg",
+    "isTrending": true,
+    "isBookmarked": false
+  }
+]
